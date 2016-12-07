@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/y.romanikhin/repos/dmia/sport/allstate/keras/main.cpp
+cmath
+-
+string.h
+-
+iostream
+-
+iomanip
+-
+deque
+-
+vector
+-
+map
+-
+algorithm
+-
+fstream
+-
+

@@ -1,0 +1,319 @@
+
+ Fold 1
+[0]	train-mae:3232.75	eval-mae:3241.08
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1596.03	eval-mae:1604.7
+[200]	train-mae:1211.79	eval-mae:1237.68
+[300]	train-mae:1132.98	eval-mae:1171.31
+[400]	train-mae:1110.04	eval-mae:1155.92
+[500]	train-mae:1098.4	eval-mae:1150.23
+[600]	train-mae:1089.47	eval-mae:1146.61
+[700]	train-mae:1082.32	eval-mae:1144.06
+[800]	train-mae:1075.91	eval-mae:1142.23
+[900]	train-mae:1069.86	eval-mae:1140.79
+[1000]	train-mae:1064.57	eval-mae:1139.7
+[1100]	train-mae:1059.45	eval-mae:1138.7
+[1200]	train-mae:1054.21	eval-mae:1137.9
+[1300]	train-mae:1049.44	eval-mae:1137.2
+[1400]	train-mae:1045.11	eval-mae:1136.63
+[1500]	train-mae:1040.63	eval-mae:1136.14
+[1600]	train-mae:1035.97	eval-mae:1135.9
+Stopping. Best iteration:
+[1551]	train-mae:1038.08	eval-mae:1135.87
+
+eval-MAE: 1135.866459
+
+ Fold 2
+[0]	train-mae:3235.51	eval-mae:3216.29
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1597.24	eval-mae:1579.37
+[200]	train-mae:1213.17	eval-mae:1215.18
+[300]	train-mae:1134.76	eval-mae:1150.77
+[400]	train-mae:1111.76	eval-mae:1137.02
+[500]	train-mae:1100.44	eval-mae:1131.99
+[600]	train-mae:1091.57	eval-mae:1128.79
+[700]	train-mae:1084.49	eval-mae:1126.75
+[800]	train-mae:1078.06	eval-mae:1124.92
+[900]	train-mae:1072.1	eval-mae:1123.32
+[1000]	train-mae:1066.96	eval-mae:1122.27
+[1100]	train-mae:1061.58	eval-mae:1121.29
+[1200]	train-mae:1056.47	eval-mae:1120.42
+[1300]	train-mae:1051.62	eval-mae:1119.82
+[1400]	train-mae:1047.22	eval-mae:1119.42
+[1500]	train-mae:1042.65	eval-mae:1118.89
+[1600]	train-mae:1038.01	eval-mae:1118.53
+[1700]	train-mae:1033.5	eval-mae:1118.15
+[1800]	train-mae:1029.2	eval-mae:1117.91
+[1900]	train-mae:1024.87	eval-mae:1117.62
+[2000]	train-mae:1020.45	eval-mae:1117.33
+[2100]	train-mae:1016.62	eval-mae:1117.03
+[2200]	train-mae:1012.83	eval-mae:1116.81
+[2300]	train-mae:1009.01	eval-mae:1116.77
+Stopping. Best iteration:
+[2258]	train-mae:1010.71	eval-mae:1116.7
+
+eval-MAE: 1116.703487
+
+ Fold 3
+[0]	train-mae:3232.8	eval-mae:3240.68
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1595.56	eval-mae:1613.78
+[200]	train-mae:1211.49	eval-mae:1239.81
+[300]	train-mae:1133.67	eval-mae:1169.59
+[400]	train-mae:1110.48	eval-mae:1152.88
+[500]	train-mae:1098.79	eval-mae:1146.85
+[600]	train-mae:1090.26	eval-mae:1143.68
+[700]	train-mae:1083.57	eval-mae:1141.71
+[800]	train-mae:1077.39	eval-mae:1140.04
+[900]	train-mae:1071.12	eval-mae:1138.73
+[1000]	train-mae:1065.81	eval-mae:1137.76
+[1100]	train-mae:1060.58	eval-mae:1136.73
+[1200]	train-mae:1055.64	eval-mae:1135.88
+[1300]	train-mae:1050.99	eval-mae:1135.3
+[1400]	train-mae:1046.69	eval-mae:1134.76
+[1500]	train-mae:1042.15	eval-mae:1134.18
+[1600]	train-mae:1037.81	eval-mae:1133.68
+[1700]	train-mae:1033.61	eval-mae:1133.27
+[1800]	train-mae:1029.11	eval-mae:1132.97
+[1900]	train-mae:1024.68	eval-mae:1132.84
+[2000]	train-mae:1020.21	eval-mae:1132.54
+[2100]	train-mae:1016.57	eval-mae:1132.41
+[2200]	train-mae:1012.54	eval-mae:1132.13
+[2300]	train-mae:1008.6	eval-mae:1131.88
+[2400]	train-mae:1004.82	eval-mae:1131.75
+[2500]	train-mae:1001.23	eval-mae:1131.59
+Stopping. Best iteration:
+[2503]	train-mae:1001.12	eval-mae:1131.57
+
+eval-MAE: 1131.569891
+
+ Fold 4
+[0]	train-mae:3234.19	eval-mae:3228.17
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1598.18	eval-mae:1592.7
+[200]	train-mae:1212.97	eval-mae:1220.17
+[300]	train-mae:1134.83	eval-mae:1147.97
+[400]	train-mae:1111.94	eval-mae:1131.15
+[500]	train-mae:1100.52	eval-mae:1125.44
+[600]	train-mae:1091.82	eval-mae:1121.96
+[700]	train-mae:1084.22	eval-mae:1119.99
+[800]	train-mae:1077.8	eval-mae:1118.59
+[900]	train-mae:1071.93	eval-mae:1117.45
+[1000]	train-mae:1066.7	eval-mae:1116.59
+[1100]	train-mae:1061.51	eval-mae:1116.12
+[1200]	train-mae:1056.6	eval-mae:1115.73
+[1300]	train-mae:1051.69	eval-mae:1115.27
+[1400]	train-mae:1047.32	eval-mae:1114.76
+[1500]	train-mae:1042.56	eval-mae:1114.45
+[1600]	train-mae:1038.17	eval-mae:1114.09
+[1700]	train-mae:1034.14	eval-mae:1113.78
+Stopping. Best iteration:
+[1731]	train-mae:1032.6	eval-mae:1113.74
+
+eval-MAE: 1113.744560
+
+ Fold 5
+[0]	train-mae:3231.24	eval-mae:3254.73
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1594.16	eval-mae:1621.56
+[200]	train-mae:1209.79	eval-mae:1249.64
+[300]	train-mae:1131.97	eval-mae:1177.45
+[400]	train-mae:1109.4	eval-mae:1160.21
+[500]	train-mae:1098.12	eval-mae:1153.4
+[600]	train-mae:1088.97	eval-mae:1149.22
+[700]	train-mae:1082.03	eval-mae:1146.72
+[800]	train-mae:1075.37	eval-mae:1144.79
+[900]	train-mae:1069.27	eval-mae:1143.15
+[1000]	train-mae:1064.13	eval-mae:1142.09
+[1100]	train-mae:1059.34	eval-mae:1141.09
+[1200]	train-mae:1054.72	eval-mae:1140.4
+[1300]	train-mae:1049.85	eval-mae:1139.7
+[1400]	train-mae:1045.26	eval-mae:1139.08
+[1500]	train-mae:1040.68	eval-mae:1138.61
+[1600]	train-mae:1036.36	eval-mae:1138.17
+[1700]	train-mae:1032.34	eval-mae:1137.7
+[1800]	train-mae:1028.01	eval-mae:1137.39
+[1900]	train-mae:1023.83	eval-mae:1137.03
+[2000]	train-mae:1019.59	eval-mae:1136.82
+[2100]	train-mae:1015.51	eval-mae:1136.69
+[2200]	train-mae:1011.81	eval-mae:1136.7
+Stopping. Best iteration:
+[2176]	train-mae:1012.65	eval-mae:1136.63
+
+eval-MAE: 1136.633039
+
+ Fold 6
+[0]	train-mae:3233.65	eval-mae:3233.01
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1596.39	eval-mae:1609.84
+[200]	train-mae:1211.42	eval-mae:1238.53
+[300]	train-mae:1133.03	eval-mae:1169.19
+[400]	train-mae:1109.96	eval-mae:1152.86
+[500]	train-mae:1098.73	eval-mae:1147.05
+[600]	train-mae:1089.92	eval-mae:1143.33
+[700]	train-mae:1083.09	eval-mae:1140.71
+[800]	train-mae:1076.83	eval-mae:1138.81
+[900]	train-mae:1070.81	eval-mae:1137.3
+[1000]	train-mae:1065.21	eval-mae:1136.03
+[1100]	train-mae:1060.07	eval-mae:1134.98
+[1200]	train-mae:1055.2	eval-mae:1134.11
+[1300]	train-mae:1050.37	eval-mae:1133.23
+[1400]	train-mae:1046.12	eval-mae:1132.51
+[1500]	train-mae:1041.33	eval-mae:1131.97
+[1600]	train-mae:1036.95	eval-mae:1131.51
+[1700]	train-mae:1032.74	eval-mae:1130.96
+[1800]	train-mae:1028.47	eval-mae:1130.65
+[1900]	train-mae:1024.31	eval-mae:1130.25
+[2000]	train-mae:1020.25	eval-mae:1129.91
+[2100]	train-mae:1016.56	eval-mae:1129.59
+[2200]	train-mae:1012.78	eval-mae:1129.45
+[2300]	train-mae:1008.86	eval-mae:1129.26
+[2400]	train-mae:1004.98	eval-mae:1129.12
+[2500]	train-mae:1001.28	eval-mae:1128.97
+Stopping. Best iteration:
+[2515]	train-mae:1000.75	eval-mae:1128.94
+
+eval-MAE: 1128.943681
+
+ Fold 7
+[0]	train-mae:3231.44	eval-mae:3252.93
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1595.72	eval-mae:1614.17
+[200]	train-mae:1211.52	eval-mae:1240.58
+[300]	train-mae:1133.3	eval-mae:1168.53
+[400]	train-mae:1110.65	eval-mae:1151.76
+[500]	train-mae:1099	eval-mae:1145.7
+[600]	train-mae:1089.63	eval-mae:1141.7
+[700]	train-mae:1082.63	eval-mae:1139.51
+[800]	train-mae:1076.28	eval-mae:1137.66
+[900]	train-mae:1070.47	eval-mae:1136.25
+[1000]	train-mae:1064.79	eval-mae:1135.13
+[1100]	train-mae:1059.6	eval-mae:1134.26
+[1200]	train-mae:1054.74	eval-mae:1133.51
+[1300]	train-mae:1049.69	eval-mae:1132.7
+[1400]	train-mae:1044.86	eval-mae:1132.08
+[1500]	train-mae:1040.57	eval-mae:1131.59
+[1600]	train-mae:1035.78	eval-mae:1131.13
+[1700]	train-mae:1031.66	eval-mae:1130.7
+[1800]	train-mae:1027.49	eval-mae:1130.38
+[1900]	train-mae:1023.29	eval-mae:1130.07
+[2000]	train-mae:1019.24	eval-mae:1129.9
+[2100]	train-mae:1015.32	eval-mae:1129.6
+[2200]	train-mae:1011.49	eval-mae:1129.36
+[2300]	train-mae:1007.92	eval-mae:1129.21
+[2400]	train-mae:1004.07	eval-mae:1129.02
+[2500]	train-mae:1000.19	eval-mae:1128.8
+Stopping. Best iteration:
+[2516]	train-mae:999.559	eval-mae:1128.78
+
+eval-MAE: 1128.777285
+
+ Fold 8
+[0]	train-mae:3234.69	eval-mae:3223.63
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1595.91	eval-mae:1601.02
+[200]	train-mae:1211.42	eval-mae:1232.4
+[300]	train-mae:1132.74	eval-mae:1165.01
+[400]	train-mae:1109.79	eval-mae:1150.17
+[500]	train-mae:1098.58	eval-mae:1144.86
+[600]	train-mae:1089.6	eval-mae:1141.59
+[700]	train-mae:1082.5	eval-mae:1139.5
+[800]	train-mae:1076.42	eval-mae:1137.89
+[900]	train-mae:1070.12	eval-mae:1136.5
+[1000]	train-mae:1064.56	eval-mae:1135.39
+[1100]	train-mae:1059.47	eval-mae:1134.52
+[1200]	train-mae:1054.37	eval-mae:1133.89
+[1300]	train-mae:1049.11	eval-mae:1133.2
+[1400]	train-mae:1044.11	eval-mae:1132.73
+[1500]	train-mae:1039.43	eval-mae:1132.26
+[1600]	train-mae:1034.98	eval-mae:1131.88
+[1700]	train-mae:1030.74	eval-mae:1131.55
+[1800]	train-mae:1026.48	eval-mae:1131.29
+[1900]	train-mae:1022.45	eval-mae:1130.9
+[2000]	train-mae:1018.16	eval-mae:1130.56
+[2100]	train-mae:1014.07	eval-mae:1130.36
+[2200]	train-mae:1010.3	eval-mae:1130.24
+[2300]	train-mae:1006.64	eval-mae:1130.13
+[2400]	train-mae:1003.11	eval-mae:1130
+[2500]	train-mae:999.33	eval-mae:1129.8
+Stopping. Best iteration:
+[2509]	train-mae:999.048	eval-mae:1129.78
+
+eval-MAE: 1129.775120
+
+ Fold 9
+[0]	train-mae:3234.1	eval-mae:3228.97
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1595.88	eval-mae:1599.17
+[200]	train-mae:1211.86	eval-mae:1229.26
+[300]	train-mae:1133.47	eval-mae:1159.05
+[400]	train-mae:1111.15	eval-mae:1142.04
+[500]	train-mae:1098.69	eval-mae:1135.29
+[600]	train-mae:1090.48	eval-mae:1131.67
+[700]	train-mae:1083.25	eval-mae:1129.31
+[800]	train-mae:1076.79	eval-mae:1127.54
+[900]	train-mae:1070.89	eval-mae:1126.15
+[1000]	train-mae:1065.3	eval-mae:1125.12
+[1100]	train-mae:1060.08	eval-mae:1124.26
+[1200]	train-mae:1055.19	eval-mae:1123.54
+[1300]	train-mae:1050.34	eval-mae:1122.62
+[1400]	train-mae:1045.67	eval-mae:1121.87
+[1500]	train-mae:1041.34	eval-mae:1121.37
+[1600]	train-mae:1037.25	eval-mae:1120.89
+[1700]	train-mae:1032.76	eval-mae:1120.58
+[1800]	train-mae:1028.8	eval-mae:1120.37
+Stopping. Best iteration:
+[1781]	train-mae:1029.54	eval-mae:1120.31
+
+eval-MAE: 1120.310601
+
+ Fold 10
+[0]	train-mae:3235.5	eval-mae:3216.38
+Multiple eval metrics have been passed: 'eval-mae' will be used for early stopping.
+
+Will train until eval-mae hasn't improved in 50 rounds.
+[100]	train-mae:1596.96	eval-mae:1588.98
+[200]	train-mae:1212.89	eval-mae:1220.04
+[300]	train-mae:1134.55	eval-mae:1153.91
+[400]	train-mae:1111.63	eval-mae:1138.34
+[500]	train-mae:1099.44	eval-mae:1132.18
+[600]	train-mae:1091	eval-mae:1128.93
+[700]	train-mae:1083.78	eval-mae:1126.5
+[800]	train-mae:1077.38	eval-mae:1124.65
+[900]	train-mae:1071.06	eval-mae:1123.22
+[1000]	train-mae:1065.78	eval-mae:1121.88
+[1100]	train-mae:1060.09	eval-mae:1120.85
+[1200]	train-mae:1055.24	eval-mae:1120.16
+[1300]	train-mae:1050.03	eval-mae:1119.23
+[1400]	train-mae:1045.83	eval-mae:1118.55
+[1500]	train-mae:1041.26	eval-mae:1118.18
+[1600]	train-mae:1037.08	eval-mae:1117.73
+[1700]	train-mae:1032.91	eval-mae:1117.36
+[1800]	train-mae:1028.93	eval-mae:1117.04
+[1900]	train-mae:1024.63	eval-mae:1116.64
+Stopping. Best iteration:
+[1935]	train-mae:1023.26	eval-mae:1116.51
+
+eval-MAE: 1116.510358
+Average eval-MAE: 1125.883448
+Writing results
+10-fold average prediction:
+Writing submission: submission_10fold-average-xgb_fairobj_1125.883448_2016-12-02-20-24.csv
