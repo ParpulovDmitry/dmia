@@ -65,14 +65,14 @@ train_y = np.log(train['loss'] + shift)
 train_x = train.drop(['loss','id'], axis=1)
 test_x = test.drop(['loss','id'], axis=1)
 
-n_folds = 5
+n_folds = 3
 cv_sum = 0
 fpred = []
 xgb_rounds = []
 
 d_train_full = xgb.DMatrix(train_x, label=train_y)
 d_test = xgb.DMatrix(test_x)
-"""
+
 kf = KFold(train_x.shape[0], n_folds = n_folds, shuffle = True, random_state = 42)
 
 oof_df = pd.DataFrame()
@@ -97,7 +97,7 @@ for i, (train_index, test_index) in enumerate(kf):
     X_train, X_val = train_x.iloc[train_index], train_x.iloc[test_index]
     y_train, y_val = train_y.iloc[train_index], train_y.iloc[test_index]
     ind_tr, ind_val = ids_train.loc[train_index].values, ids_train.loc[test_index].values
-
+    
     d_train = xgb.DMatrix(X_train, label=y_train)
     d_valid = xgb.DMatrix(X_val, label=y_val)
     watchlist = [(d_train, 'train'), (d_valid, 'eval')]
@@ -153,12 +153,10 @@ sub_file = 'submission_10fold-average-xgb_fairobj_' + str(score) + '_' + str(now
 print("Writing submission: %s" % sub_file)
 result.to_csv(sub_file, index=True, index_label='id')
 """
-
-
 print 'All set predictions'
 fpred = []
 #################### ALL SET  ##########################
-for rnd_seed in range(0,10):
+for rnd_seed in range(10,20):
 
     print 'seed: %s' % rnd_seed
 
@@ -182,8 +180,8 @@ for rnd_seed in range(0,10):
                     d_train,
                     500000,
                     early_stopping_rounds=150,
-                    obj=fair_obj,
-                    feval=xg_eval_mae,
+                    #obj=fair_obj,
+                    #feval=xg_eval_mae
                     )
 
     y_pred_all = np.exp(clf.predict(d_test, ntree_limit=clf.best_ntree_limit)) - shift
@@ -201,4 +199,4 @@ now = datetime.now()
 sub_file = 'submission_10_SEED-average-xgb_' + str(now.strftime("%Y-%m-%d-%H-%M")) + '.csv'
 print("Writing submission: %s" % sub_file)
 result_all.to_csv(sub_file, index=True, index_label='id')
-
+"""
