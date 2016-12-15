@@ -1,1 +1,0 @@
-/home/y.romanikhin/repos/dmia/sport/allstate/keras/CMakeFiles/Iso.dir
